@@ -12,7 +12,7 @@ My Windows Powershell configuration with oh-my-posh and PSReadline.
 ## Techologies used
 
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-- PsReadline
+- [PSReadline](https://github.com/PowerShell/PSReadLine)
 
 ## How to active the scripts execution?
 

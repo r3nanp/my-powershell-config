@@ -5,7 +5,7 @@ Configuração do meu Windows Powershell usando oh-my-posh e PSReadline
 ## Tecnologias usadas
 
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-- PsReadline
+- [PSReadline](https://github.com/PowerShell/PSReadLine)
 
 ## Como ativar a politica de execução de scripts?
 
