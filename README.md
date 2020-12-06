@@ -6,6 +6,13 @@ My Windows Powershell configuration with oh-my-posh and PSReadline.
 
 </div>
 
+<div align="center">
+
+![r3nanp](https://img.shields.io/badge/r3nanp-my--powershell--config-blue?style=for-the-badge)
+![license mit](https://img.shields.io/github/license/r3nanp/my-powershell-config?color=blue&label=LICENSE&logo=github&style=for-the-badge)
+
+</div>
+
 ---
 
 <div align="center">
