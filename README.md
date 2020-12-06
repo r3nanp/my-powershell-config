@@ -1,6 +1,12 @@
-# my-powershell-config
+<div align="center">
+
+# 🔥 My Powershell Config
 
 My Windows Powershell configuration with oh-my-posh and PSReadline.
+
+</div>
+
+---
 
 <div align="center">
   - <a href="./.github/README-pt.md">Switch to Portuguese 🇧🇷
@@ -59,10 +65,10 @@ $ Install-Module oh-my-posh -Scope CurrentUser
 ### Configure profile
 
 ```
-> Into your powershell execute this command:
+> Into your powershell, execute this command:
 
 $ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
 notepad $PROFILE
 ```
 
-<a href="/settings/theming.psm1"> And copy profile configuration in settings</a>
+<a href="/settings/profile.ps1"> And copy profile configuration in settings</a>

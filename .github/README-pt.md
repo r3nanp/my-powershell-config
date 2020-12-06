@@ -1,6 +1,10 @@
-# my-powershell-config
+<div align="center">
+
+# 🔥 My Powershell Config
 
 Configuração do meu Windows Powershell usando oh-my-posh e PSReadline
+
+</div>
 
 ## Tecnologias usadas
 
@@ -62,4 +66,4 @@ notepad $PROFILE
 ```
 
 
-<a href="./settings/theming.psm1"> And copy profile configuration in settings</a>
+<a href="./settings/profile.ps1"> And copy profile configuration in settings</a>
