@@ -2,7 +2,7 @@
 
 # 🔥 My Powershell Config
 
-My Windows Powershell configuration with oh-my-posh and PSReadline.
+My Windows Powershell configuration with **oh-my-posh** and **PSReadline**.
 
 </div>
 
