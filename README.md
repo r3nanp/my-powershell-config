@@ -2,7 +2,12 @@
 
 My Windows Powershell configuration with oh-my-posh and PSReadline.
 
-- <a href="./.github/README-pt.md">Switch to Portuguese 🇷</a>
+<div align="center">
+  - <a href="./.github/README-pt.md">Switch to Portuguese 🇧🇷
+  </a>
+</div>
+
+---
 
 ## Techologies used
 
@@ -19,7 +24,7 @@ $ Get-ExecutionPolicy
 
 ---
 
-**Table of policies**
+**Policy table**
 | Restriced | AllSigned | RemoteSigned | Unrestriced | ByPass |
 |-------------------------------------------------------------------------------- |----------------------------------------------------- |-------------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------- |------------------------------------------------------ |
 | No script can be run. Windows Powershell can only be used in interactive mode. | Only scripts signed by a trusted publisher can run. | Download scripts must be signed by a trusted publisher before they can be run. | No restrictions. All scripts can be run, but download scripts will prompt for permission before it runs. | All scripts can be run, without warnings or prompts. |
@@ -28,7 +33,7 @@ $ Get-ExecutionPolicy
 
 I'm using RemoteSigned policy:
 
-<img src="./github/screenshot.png" alt="Hyper">
+<img src="./.github/screenshot.png" alt="Hyper">
 
 ```
 # This command will change your policy
