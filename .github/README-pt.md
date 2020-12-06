@@ -26,7 +26,7 @@ $ Get-ExecutionPolicy
 
 Meu powershell está usando a politica RemoteSigned:
 
-<img src="./.github/screenshot.png" alt="Hyper">
+<img src="screenshot.png" alt="Hyper">
 
 ---
 
