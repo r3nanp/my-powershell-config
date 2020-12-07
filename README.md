@@ -60,6 +60,13 @@ $ Set-ExecutionPolicy -Scope CurrentUser
 > Install PSReadline
 
 $ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+
+```
+
+```
+> If you don't have an -AllowPrerelease flag, upgrade PowerShellGet with: 
+
+$ Install-Module -Name PowerShellGet -Force first.
 ```
 
 ```
