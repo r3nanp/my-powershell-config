@@ -60,7 +60,6 @@ $ Set-ExecutionPolicy -Scope CurrentUser
 > Install PSReadline
 
 $ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
-
 ```
 
 ```
