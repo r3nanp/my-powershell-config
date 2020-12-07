@@ -81,7 +81,7 @@ $ Install-Module oh-my-posh -Scope CurrentUser
 > Into your powershell, execute this command:
 
 $ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
-notepad $PROFILE
+code $PROFILE 
 ```
 
 <a href="/settings/profile.ps1"> And copy profile configuration in settings</a>
