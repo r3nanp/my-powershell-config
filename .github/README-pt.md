@@ -69,4 +69,4 @@ notepad $PROFILE
 ```
 
 
-<a href="./theme/profile.ps1">Copie e cole o código na pasta theme</a>
+<a href="../theme/profile.ps1">Copie e cole o código na pasta theme</a>
