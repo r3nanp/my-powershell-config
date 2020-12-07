@@ -1,4 +1,8 @@
 <div align="center">
+<img src="./.github/powershell.png" />
+</div>
+
+<div align="center">
 
 # 🔥 My Powershell Config
 
@@ -11,7 +15,7 @@ Configuração do meu Windows Powershell usando oh-my-posh e PSReadline
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 - [PSReadline](https://github.com/PowerShell/PSReadLine)
 
-## Como ativar a politica de execução de scripts?
+## Como ativar a politica de execução de scripts no Powershell?
 
 ```
 # Esse comando vai mostrar qual politica está ativa no momento:
@@ -28,12 +32,11 @@ $ Get-ExecutionPolicy
 
 <br>
 
-Meu powershell está usando a politica RemoteSigned:
+Exemplo: Meu Powershell está usando a politica **RemoteSigned**
 
 <img src="screenshot.png" alt="Hyper">
 
 ---
-
 
 ```
 # Esse comando ativar a execução de scripts:
@@ -56,7 +59,7 @@ $ Install-Module posh-git -Scope CurrentUser
 $ Install-Module oh-my-posh -Scope CurrentUser
 ```
 
-### Configurar perfil
+### Configurar Powershell perfil
 
 ```
 > Dentro do powershell, execute este comando:
@@ -66,4 +69,4 @@ notepad $PROFILE
 ```
 
 
-<a href="./settings/profile.ps1"> And copy profile configuration in settings</a>
+<a href="./theme/profile.ps1">Copie e cole o código na pasta theme</a>

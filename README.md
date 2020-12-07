@@ -1,4 +1,8 @@
 <div align="center">
+<img src="./.github/powershell.png" />
+</div>
+
+<div align="center">
 
 # 🔥 My Powershell Config
 
@@ -21,20 +25,18 @@ My Windows Powershell configuration with **oh-my-posh** and **PSReadline**.
 </div>
 
 ---
-
 ## Techologies used
 
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 - [PSReadline](https://github.com/PowerShell/PSReadLine)
 
-## How to active the scripts execution?
+## How to active the scripts execution in Powershell?
 
 ```
 # This command will show which policy is active
 
 $ Get-ExecutionPolicy
 ```
-
 ---
 
 **Policy table**
@@ -44,7 +46,7 @@ $ Get-ExecutionPolicy
 
 ---
 
-I'm using RemoteSigned policy:
+Example: My Powershell is using RemoteSigned policy
 
 <img src="./.github/screenshot.png" alt="Hyper">
 
@@ -75,13 +77,13 @@ $ Install-Module posh-git -Scope CurrentUser
 $ Install-Module oh-my-posh -Scope CurrentUser
 ```
 
-### Configure profile
+### Configure Powershell profile
 
 ```
 > Into your powershell, execute this command:
 
 $ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
-code $PROFILE 
+notepad $PROFILE 
 ```
 
-<a href="/settings/profile.ps1"> And copy profile configuration in settings</a>
+<a href="/theme/profile.ps1"> And copy and paste profile configuration in theme</a>
