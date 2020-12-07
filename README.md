@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./.github/powershell.png" />
+<img src="./.github/img/powershell.png" />
 </div>
 
 <div align="center">
@@ -12,7 +12,7 @@ My Windows Powershell configuration with **oh-my-posh** and **PSReadline**.
 
 <div align="center">
 
-![r3nanp](https://img.shields.io/badge/r3nanp-my--powershell--config-blue?style=for-the-badge)
+![r3nanp](https://img.shields.io/badge/r3nanp-my--powershell--config-blue?style=for-the-badge&logo=powershell)
 ![license mit](https://img.shields.io/github/license/r3nanp/my-powershell-config?color=blue&label=LICENSE&logo=github&style=for-the-badge)
 
 </div>
@@ -48,7 +48,7 @@ $ Get-ExecutionPolicy
 
 Example: My Powershell is using RemoteSigned policy
 
-<img src="./.github/screenshot.png" alt="Hyper">
+<img src="./.github/img/screenshot.png" alt="Hyper">
 
 ```
 # This command will change your policy

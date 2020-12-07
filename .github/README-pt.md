@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./.github/powershell.png" />
+<img src="img/powershell.png" />
 </div>
 
 <div align="center">
@@ -34,7 +34,7 @@ $ Get-ExecutionPolicy
 
 Exemplo: Meu Powershell está usando a politica **RemoteSigned**
 
-<img src="screenshot.png" alt="Hyper">
+<img src="img/screenshot.png" alt="Hyper">
 
 ---
 
