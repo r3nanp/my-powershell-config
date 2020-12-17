@@ -25,6 +25,11 @@ My Windows Powershell configuration with **oh-my-posh** and **PSReadline**.
 </div>
 
 ---
+
+## Prerequisites
+⚠**You should use a modern console** host like ConEmu, Alacritty, Terminus, Hyper, FluentTerminal, or the official Windows Terminal to have a great terminal experience on Windows. ⚠
+
+
 ## Techologies used
 
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)

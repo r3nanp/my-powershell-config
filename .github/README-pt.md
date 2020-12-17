@@ -10,6 +10,9 @@ Configuração do meu Windows Powershell usando oh-my-posh e PSReadline
 
 </div>
 
+## Pré-requisitos
+⚠ **Você deve usar um terminal moderno** como Hyper, Terminus, ConEmu ou o terminal oficial do Windows para ter uma boa experiência no Windows. ⚠
+
 ## Tecnologias usadas
 
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
