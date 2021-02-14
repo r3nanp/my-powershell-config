@@ -82,6 +82,12 @@ $ Install-Module posh-git -Scope CurrentUser
 $ Install-Module oh-my-posh -Scope CurrentUser
 ```
 
+```
+> Install Get-ChildItemColor
+
+$ Install-Module -Name Get-ChildItemColor -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck -AllowClobber
+```
+
 ### Configure Powershell profile
 
 ```
