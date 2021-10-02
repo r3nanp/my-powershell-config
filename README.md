@@ -1,21 +1,11 @@
-<div align="center">
 <img src="./.github/img/powershell.png" />
-</div>
-
-<div align="center">
 
 # 🔥 My Powershell Config
 
 My Windows Powershell configuration with **oh-my-posh** and **PSReadline**.
 
-</div>
-
-<div align="center">
-
 ![r3nanp](https://img.shields.io/badge/r3nanp-my--powershell--config-blue?style=for-the-badge&logo=powershell)
 ![license mit](https://img.shields.io/github/license/r3nanp/my-powershell-config?color=blue&label=LICENSE&logo=github&style=for-the-badge)
-
-</div>
 
 ---
 
@@ -27,8 +17,8 @@ My Windows Powershell configuration with **oh-my-posh** and **PSReadline**.
 ---
 
 ## Prerequisites
-⚠**You should use a modern console** host like ConEmu, Alacritty, Terminus, Hyper, FluentTerminal, or the official Windows Terminal to have a great terminal experience on Windows. ⚠
 
+⚠ **You should use a modern console** host like ConEmu, Alacritty, Terminus, Hyper, FluentTerminal, or the official Windows Terminal to have a great terminal experience on Windows. ⚠
 
 ## Techologies used
 
@@ -37,11 +27,11 @@ My Windows Powershell configuration with **oh-my-posh** and **PSReadline**.
 
 ## How to active the scripts execution in Powershell?
 
+- This command will show which policy is active
+```ps1
+Get-ExecutionPolicy
 ```
-# This command will show which policy is active
 
-$ Get-ExecutionPolicy
-```
 ---
 
 **Policy table**
@@ -55,46 +45,50 @@ Example: My Powershell is using RemoteSigned policy
 
 <img src="./.github/img/screenshot.png" alt="Hyper">
 
-```
-# This command will change your policy
-
-$ Set-ExecutionPolicy -Scope CurrentUser
+- This command will change your policy:
+```ps1
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
 ### How to install PSReadline and oh-my-posh
 
-```
-> Install PSReadline
+- Install PSReadline
 
-$ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
-```
-
-```
-> If you don't have an -AllowPrerelease flag, upgrade PowerShellGet with: 
-
-$ Install-Module -Name PowerShellGet -Force first.
+```ps1
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 ```
 
-```
-> Install oh-my-posh
+- If you don't have an -AllowPrerelease flag, upgrade PowerShellGet with:
 
-$ Install-Module posh-git -Scope CurrentUser
-$ Install-Module oh-my-posh -Scope CurrentUser
+```ps1
+Install-Module -Name PowerShellGet -Force first.
 ```
 
-```
-> Install Get-ChildItemColor
+- Install oh-my-posh
 
-$ Install-Module -Name Get-ChildItemColor -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck -AllowClobber
+```ps1
+Install-Module oh-my-posh -Scope CurrentUser
+```
+
+(Not necessary)
+
+- Install Get-ChildItemColor
+
+```ps1
+Install-Module -Name Get-ChildItemColor -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck -AllowClobber
 ```
 
 ### Configure Powershell profile
 
-```
-> Into your powershell, execute this command:
+- Into your powershell, execute this command:
 
-$ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
-notepad $PROFILE 
+```ps1
+if (!(Test-Path -Path $PROFILE )) { 
+  New-Item -Type File -Path $PROFILE -Force 
+}
+
+# To open in visual studio code, but you can change it
+code $PROFILE
 ```
 
-<a href="/theme/profile.ps1"> And copy and paste profile configuration in theme</a>
+### <a href="/theme/profile.ps1"> And copy and paste profile configuration in theme</a>

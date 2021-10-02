@@ -1,14 +1,8 @@
-<div align="center">
 <img src="img/powershell.png" />
-</div>
-
-<div align="center">
 
 # 🔥 My Powershell Config
 
 Configuração do meu Windows Powershell usando oh-my-posh e PSReadline
-
-</div>
 
 ## Pré-requisitos
 
@@ -21,10 +15,9 @@ Configuração do meu Windows Powershell usando oh-my-posh e PSReadline
 
 ## Como ativar a politica de execução de scripts no Powershell?
 
-```
-# Esse comando vai mostrar qual politica está ativa no momento:
-
-$ Get-ExecutionPolicy
+- Esse comando vai mostrar qual politica está ativa no momento:
+```ps1
+Get-ExecutionPolicy
 ```
 
 ---
@@ -43,40 +36,39 @@ Exemplo: Meu Powershell está usando a politica **RemoteSigned**
 
 ---
 
-```
-# Esse comando ativar a execução de scripts:
-
-$ Set-ExecutionPolicy -Scope CurrentUser
+- Utilize este comando para ativar a execução de scripts:
+```ps1
+Set-ExecutionPolicy -Scope CurrentUser
 ```
 
 ### Como instalar PSReadline e oh-my-posh
 
-```
-> Instala PSReadline
-
-$ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
-```
-
-```
-> Instala oh-my-posh
-
-$ Install-Module posh-git -Scope CurrentUser
-$ Install-Module oh-my-posh -Scope CurrentUser
+- Instala PSReadline
+```ps1
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 ```
 
-```
-> Instala o Get-ChildItemColor
-
-$ Install-Module -Name Get-ChildItemColor -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck -AllowClobber
-```
-
-### Configurar Powershell perfil
-
-```
-> Dentro do powershell, execute este comando:
-
-$ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
-notepad $PROFILE
+- Instala oh-my-posh
+```ps1
+Install-Module oh-my-posh -Scope CurrentUser
 ```
 
-<a href="../theme/profile.ps1">Copie e cole o código na pasta theme</a>
+(Não necessário)
+- Instala o Get-ChildItemColor
+```ps1
+Install-Module -Name Get-ChildItemColor -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck -AllowClobber
+```
+
+### Configurar o perfil do Powershell
+
+- Dentro do powershell, execute este comando:
+```ps1
+if (!(Test-Path -Path $PROFILE )) { 
+    New-Item -Type File -Path $PROFILE -Force 
+}
+
+# Para abrir no VSCode, mas você pode mudar.
+code $PROFILE
+```
+
+### <a href="../theme/profile.ps1">Copie e cole o código na pasta theme</a>
